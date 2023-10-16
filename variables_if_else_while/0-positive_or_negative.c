@@ -12,7 +12,7 @@ int main(void)
     /* your code goes there */
     if ( n > 0 ) {
       printf("la valeur de n est supérieure à zéro donc le resultat est negatif\n");
-    } else {
+    } else if ( n < 0 ) {
       printf("la valeur de n est inférieure à zéro donc le resultat est positif\n");
     }
     printf("la valeur de n est : %d\n", n);
