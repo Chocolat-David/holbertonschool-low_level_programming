@@ -11,10 +11,13 @@ int main(void)
     n = rand() - RAND_MAX 2;
     /* your code goes there */
     if ( n > 0 ) {
-      printf("la valeur de n est supérieure à zéro donc le resultat est negatif\n");
-    } else if ( n < 0 ) {
-      printf("la valeur de n est inférieure à zéro donc le resultat est positif\n");
+      printf("is positive\n");
+    } else if ( n = 0 ) {
+      printf("is zero\n");
+    } else {
+      printf("is negative\n");
     }
+
     printf("la valeur de n est : %d\n", n);
 
     return (0);
