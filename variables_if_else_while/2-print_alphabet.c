@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+* main - main function
+*
+* Return: char
+*/
+
 int main(void)
 {
 	char c = 'a';
