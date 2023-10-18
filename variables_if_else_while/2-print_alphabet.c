@@ -2,9 +2,9 @@
 
 int main(void)
 {
-	char c;
+	char c = 'a';
 
-	while ((c = 'a') || (c <= 'z'))
+	while (c <= 'z')
 		{
 		putchar(c);
 		c++;
