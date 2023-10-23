@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 int main(void)
 {
@@ -10,4 +11,4 @@ int main(void)
 	putchar('h');
 	putchar('a');
 	putchar('r');
-};
+}
